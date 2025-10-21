@@ -84,3 +84,16 @@ print(lst3)
 lst4 = str1.split(" ", 2)
 print(lst4)
 # %%
+#Class exercise – Lecture 1
+nameList = ["Amit", "Sharon", "Dana", "Sarah", "Tal"]
+slicedNameList = nameList[:3]
+print(slicedNameList)
+
+#slicedNameList.pop(1) 
+del slicedNameList[1]
+print(slicedNameList)
+
+slicedNameList.append("Osnat")
+print(slicedNameList)
+
+# %%
